@@ -1,0 +1,53 @@
+body {
+  padding: 50px;
+  font: 18px "Roboto", Helvetica, sans-serif;
+
+  background-color: #0e0e0e;
+  color: #ffffff;
+
+  image-rendering: pixelated;
+}
+
+a {
+  color: #0070ff;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: #002b84;
+}
+
+button {
+  width: 4em;
+  height: 2em;
+  font-size: 16pt;
+}
+
+.text-input {
+  height: 2em;
+  border-radius: 5px;
+}
+
+.checkbox-input {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.checkbox {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+
+  margin-left: 1em;
+}
+
+hr {
+  width: 30%;
+  margin: 15px 0;
+}

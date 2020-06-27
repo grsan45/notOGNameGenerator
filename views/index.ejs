@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>"OG" Name Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>"OG" Name Generator</h1>
+    <p>By Grsan#6969</p>
+
+    <hr>
+
+    <form action="/generate" method="post">
+      <label for="name">
+        OG Name:
+        <input type="text" name="name" class="text-input">
+      </label>
+
+      <br><br>
+
+      <label for="levels">
+        "OG"-ifier features:
+        <br><br>
+        <label class="checkbox">
+          <input type="checkbox" name="levels" value="vowels" class="checkbox-input"/>
+          <span>Replace vowels with 'x' or 'q'</span>
+        </label><br>
+        <label class="checkbox">
+          <input type="checkbox" name="levels" value="prefix" class="checkbox-input"/>
+          <span>Add a random prefix [<%= prefixes %>]</span>
+        </label><br>
+        <label class="checkbox">
+          <input type="checkbox" name="levels" value="suffix" class="checkbox-input"/>
+          <span>Add a random suffix [<%= suffixes %>]</span>
+        </label><br>
+      </label>
+      
+      <br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
