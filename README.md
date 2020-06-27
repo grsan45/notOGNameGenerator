@@ -10,7 +10,7 @@ I'm not making an express site from scratch for that.
 ## Usage
 
 1. Download or clone this repo
-2. Run `node bin/www.js`
+2. Run `npm start`
 3. Navigate to `localhost:3000` in your browser
 4. Insert name and select at least one of the "OG"-ifier features
 
