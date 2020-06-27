@@ -4,7 +4,7 @@
 To preface, the code in this project is disgusting because I made in 30 minutes + 2 stupid hours for the skin renderer.
 <sub><sup>(I've never used image buffers with canvases and ofc StackOverflow doesn't know how to use them either)</sup></sub>
 
-The project structure is from Intellij Webstorm's Express generator, I used cause this was a stupid 30 minute project and
+The project structure is from Intellij Webstorm's Express generator, I used this because this was a stupid 30 minute project and
 I'm not making an express site from scratch for that.
 
 ## Usage
